@@ -1,0 +1,227 @@
+.q{
+	text-align: center;
+font-size:30px;
+width:96%;
+
+margin-top: 10px;
+margin-left: 27px;
+}
+.p{
+	text-align: center;
+
+}
+
+.hu{
+	text-align: center;
+}
+
+
+h1{
+	font-family: courier;
+}
+
+
+
+li.b{
+display: inline;
+margin-right:20%;
+}
+
+
+
+.h a{
+	text-decoration: none;
+	}
+
+.h{
+	background:#333;
+	margin-left:-4px;
+	width: 98.1%;
+ 	height: 49px;
+	font-size:35px ;
+	font-family:cursive;
+	margin-top: -15px;
+
+}
+
+
+.links:hover { background-color: black;}
+
+
+
+.c{
+display: inline;
+margin-right:60px;
+text-decoration:none;
+}
+	
+
+
+
+.a{
+	text-decoration:none;
+ color: white;
+ text-shadow: 0 0 10px blue;
+ font-size:45px;
+  }
+
+
+
+p{
+	font-size:45px;
+	color:#ea2027;
+	font-family: serif;
+	background: #ecf0f1;
+	height:70px;
+	margin:-12px;
+	padding: 20px;
+	width: 98.4%;
+	text-align:center
+}
+
+
+
+
+.w3{
+	font-size:26px;
+	color:#3c40c6;
+	}
+
+
+
+
+
+.content{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+.button{
+	margin-right: 100pt;
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	font-size: 20px;
+	background:linear-gradient(blue,pink);
+	margin-left: 30px;
+	}
+
+
+.bg{
+	background-color: #ecf0f1  ;
+	border-radius: 10px;
+
+}
+
+
+.align{
+	text-align: center;
+	color: white;
+}
+
+.white1{
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+
+.kindly{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+
+.white2{
+	font-size: 25px;
+}
+
+
+.w4{
+	color: white;
+	font-size: 20px;
+}
+
+
+.list{
+	list-style-type: none;
+}
+
+
+.mainbg{
+	background-color: rgba(57,21,97,0.5);
+}
+
+.hr{
+	border-width: 5px;
+}
+
+
+
+
+.link1{
+	text-decoration: none;
+}
+
+
+a.link1:link {
+color: black;
+}
+
+
+a.link1:visited {
+color: black;
+}
+
+
+a.link1:hover {
+color: red;
+}
+
+
+a.link1:active {
+color: black;
+} 
+
+}
+
+.image {opacity: 1;
+  display: block;
+  height: 1000px;
+}
+
+
+
+.text {
+background-color: rgba(57,21,97,0.3);
+color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.ealerts{
+color: red;font-size: 30px;
+}
+
+.subealerts{
+text-align: center;
+}
+
+.details{
+font-family: cursive;font-size: 18px;
+}
+.middle{
+display: inline-flex;
+}
+
+
+
+
+
+
