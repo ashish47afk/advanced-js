@@ -1,0 +1,31 @@
+.con1{
+   margin:0 auto;
+   width:960px;
+}
+.title-bd{
+	text-align: center;
+}
+.sec-1{
+	background-color: orange;
+}
+.sec-2{
+	background-color: red;
+}
+.add-li{
+	background-color: green;
+}
+span{
+	float: right;
+}
+.add-li{
+		text-align: center;
+}
+.check-hide{
+	margin:15px;
+}
+.text-add{
+	margin: 15px;
+}
+.butto-1 {
+	
+}
