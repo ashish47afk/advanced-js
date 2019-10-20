@@ -1,0 +1,40 @@
+body{
+	padding: 0px;
+	margin:  0px;
+	background-color: #D3D3D3;
+}
+#header{
+	background-color: #4267B2;
+	height: 80px;
+}
+#facebook{
+	padding: 250px;
+	font-size: 50px;
+}
+#log-in li{
+	padding-left: 25px;
+	display: inline;
+}
+.column-1{
+  float: left;
+  width: 60%;
+  height: 300px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 30px;
+  text-align: center;
+}
+.column-2{
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
