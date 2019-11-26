@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="scope">
+
+    </p>
+</body>
+<script>
+     document.getElementById("scope").innerHTML="Scope js";
+    //Global variable
+     var Name = "Kartik";
+function global() {
+ console.log(Name);
+}
+global();
+  //local variable
+  function local() {
+  var Name="Rahul"
+console.log(Name);
+}
+local();
+//block   //if we use var in all the three cases then they wil be consoled.log but when we are using let and const its not able to.
+function block(){
+    if(true){
+        var fruit1 = 'apple';        //exist in function scope
+        const fruit2 = 'banana';     //exist in block scope
+        let fruit3 = 'strawberry';   //exist in block scope
+    }
+    console.log(fruit1);
+    console.log(fruit2);
+    console.log(fruit3);
+}
+block();
+</script>
+</html>

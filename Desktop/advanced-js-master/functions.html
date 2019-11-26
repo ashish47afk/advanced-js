@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>After a function has been stored in a variable,
+the variable can be used as a function:</p>
+
+
+
+<script>
+   //anonymous function
+// var x = function (a, b) 
+// {
+//     return a * b
+    
+//     };
+//     console.log(x(4,3));
+//Using functions as values
+// function Function(someFunction, someArgument){
+//             return (someFunction(someArgument) );
+//         }
+//         function multiply2(val){
+//             return val * 2;
+//         }
+        
+//         var output1 = Function(multiply2, 10);
+//        console.log(output1);   
+        
+//         function Message(city){
+//             return ("This is " + city);
+//         }
+        
+//         var output2 =Function(Message, "Sparta");
+//         console.log(output2);   
+/*Function constructor
+var myFunction = new Function("a", "b", "return a * b");
+{
+console.log(myFunction(4,3));
+}*/
+/* Functions as objects
+function myFunction(a, b) {
+  return arguments.length;
+}
+console.log( myFunction(4, 3));
+*/
+/*Arrow functions
+const x = (x, y) => {
+     return x * y 
+     };
+console.log(x(5, 5));
+*/
+/* Nested functions
+function add() {
+  var counter = 0;
+  function plus() {counter += 1;}
+  plus();  
+  return counter; 
+}
+console.log(add());*/
+</script>
+</body>
+</html>
